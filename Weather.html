@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Weather</title>
+</head>
+
+<body class="bg-black flex items-center justify-center min-h-screen">
+    <div class="bg-white p-10 rounded-lg">
+        <div>
+            <h1 class="text-xl font-semibold text-center mb-6">Weather App</h1>
+
+            <input class="border px-2 py-1 rounded-sm" type="text" id="city-inp" placeholder="Enter City Name">
+            <button class="bg-cyan-700 text-white px-2 py-1 rounded-lg hover:bg-cyan-800 hover:cursor-pointer transition duration-300" id="get-weather-btn">Get Weather</button>
+
+        </div>
+
+        <div id="weather-Info" class="text-center mt-4">
+            
+            <h2 id="city-name" class="font-semibold"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        
+        </div>
+
+        <p id="error-message" class="hidden">City not found. Please try again.</p>
+    </div>
+    <script src="Weather.js"></script>
+</body>
+</html>
