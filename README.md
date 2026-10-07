@@ -19,7 +19,7 @@ A weather application that fetches and displays weather information using a Weat
 ## How to Run
 
 1. Clone this repository.
-2. Open `Weather.html` in your web browser.
+2. Open `index.html` in your web browser.
 3. Enter a city name.
 4. Click the **Get Weather** button.
 5. View the weather information displayed on the page.
